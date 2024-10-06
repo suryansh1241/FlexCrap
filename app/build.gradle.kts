@@ -44,6 +44,7 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.1.0")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.recyclerview:recyclerview:1.3.0")
+    implementation("com.google.android.gms:play-services-maps:19.0.0")
     implementation(libs.lifecycle.livedata.ktx)
     implementation(libs.lifecycle.viewmodel.ktx)
     implementation(libs.navigation.fragment)

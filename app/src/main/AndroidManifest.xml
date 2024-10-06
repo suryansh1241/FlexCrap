@@ -9,7 +9,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="FlexCrap"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hoho"
@@ -47,6 +47,16 @@
             android:name=".register"
             android:exported="true" />
         <activity android:name=".ProductListActivity" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+
+        <activity android:name=".MapsGoogle" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/my_map_api_key" />
+
     </application>
 
 </manifest>

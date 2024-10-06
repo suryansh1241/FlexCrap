@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.google.android.gms.maps.GoogleMap;
 import com.google.android.material.navigation.NavigationView;
 
 public class dashboard extends AppCompatActivity {
@@ -21,6 +22,7 @@ public class dashboard extends AppCompatActivity {
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private NavigationView nav;
     public TextView findBrandtv;
+    public TextView findYardtv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +57,14 @@ public class dashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), CategoryMain.class));
+            }
+        });
+
+        TextView findYardtv = findViewById(R.id.findYardtv);
+        findYardtv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), MapsGoogle.class));
             }
         });
     }
