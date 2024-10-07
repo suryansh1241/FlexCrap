@@ -20,7 +20,7 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="my_map_api_key">AIzaSyCCsmAPjZoFBNZEZa1XbIg8U_l_fq0qlIs</string>
+    <string name="my_map_api_key"></string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
 
 </resources>
